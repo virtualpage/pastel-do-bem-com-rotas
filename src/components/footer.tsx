@@ -19,7 +19,7 @@ export const Footer = () => {
             </div>
           </div>
           <div className="border-t border-white/20 mt-10 pt-6 text-center font-sans text-sm text-white/60">
-            <p>© 2024 Pastel do Bem. Todos os direitos reservados.</p>
+            <p>© 2025 Pastel do Bem. Todos os direitos reservados.</p>
             <p className="mt-2">Apoio: Instituto Alpha do Bem • A Quinta do Marquês • Albino Nunes</p>
           </div>
         </div>

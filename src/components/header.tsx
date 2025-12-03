@@ -25,7 +25,7 @@ export const Header = () => {
                         Vamos juntos transformar com sabor?
                     </p>
                     <button
-                        className="flex items-center justify-center bg-[#D92525] hover:bg-[#b91c1c] text-white font-hand text-2xl px-8 py-2 rounded-full shadow-lg hover:scale-105 cursor-pointer transition-transform border-4 border-white/20"
+                        className="flex items-center justify-center bg-[#D92525] hover:bg-[#b91c1c] text-white font-hand text-xl px-8 py-2 rounded-full shadow-lg hover:scale-105 cursor-pointer transition-transform border-4 border-white/20"
                         onClick={() => document.getElementById('donate')?.scrollIntoView({ behavior: 'smooth' })}
                     >
                         <FaHeart className="mr-2 w-6 fill-current" /> Quero Ajudar
