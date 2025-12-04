@@ -21,7 +21,7 @@ export const Header = () => {
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-hand font-bold mb-4 text-shadow-sm drop-shadow-lg text-[#F2C94C]">
                         Pastel do Bem
                     </h1>
-                    <p className="text-2xl md:text-4xl font-hand font-semibold mb-8 max-w-3xl mx-auto drop-shadow-md">
+                    <p className="text-lg md:text-3xl font-hand font-semibold mb-8 max-w-3xl mx-auto drop-shadow-md">
                         Vamos juntos transformar com sabor?
                     </p>
                     <button

@@ -10,13 +10,13 @@ export const Main = () => {
                         Uma Doçura que Salva Vidas
                     </h2>
                     <div className="space-y-6 text-xl md:text-xl text-gray-700 leading-relaxed font-sans font-light">
-                        <p>
+                        <p className="text-start">
                             O <span className="font-bold text-[#D92525]">Pastel do Bem</span> é um movimento de solidariedade que faz diferença na vida de muitas crianças.
-                            Nos dias 5, 6 e 7 de Dezembro, cada Pastel de Belém comprado na Quinta do Marquês se transforma em apoio direto às crianças atendidas pelo Instituto Alpha do Bem e seus parceiros.
-
+                            <br /><br />
+                            Nos dias 5, 6 e 7 de Dezembro, cada Pastel de Belém comprado na Quinta do Marquês se transforma em apoio direto às crianças atendidas pelo Instituto Alpha do Bem.
+                            <br /><br />
                             Participe dessa corrente do bem.
                             Sua contribuição gera impacto real e leva esperança a quem mais precisa.
-
                         </p>
                     </div>
                     <div className="pt-8">
@@ -34,7 +34,7 @@ export const Main = () => {
                         Faça sua Doação
                     </h2>
                     <p className="text-xl text-gray-700 mb-12 max-w-2xl mx-auto">
-                        Escolha um valor e ajude a transformar o futuro de muitas crianças. Todo valor conta!
+                        Escolha um valor e ajude a transformar o futuro de muitas crianças.<br /> Todo valor conta!
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto mb-16">
                         <DonationButton value={10} link="https://pagamento.pagbank.com.br/pagamento?code=b209ff36-dbbd-4888-8d90-241856850038&t=0d87131f-11bc-409f-a051-32e642b30ff2" />
