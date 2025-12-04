@@ -45,7 +45,7 @@ export const Main = () => {
                     </div>
                     <div className="max-w-4xl mx-auto mt-20">
                         <div className="overflow-hidden border-none shadow-xl bg-white relative rounded-xl">
-                            <div className="absolute top-0 left-0 w-full h-2 bg-linear-to-r from-[#D92525] via-[#F2C94C] to-[#27AE60]"></div>
+                            
                            <div className="p-0">
                             <div className="mt-6 left-0 w-full rounded-t-2xl h-2 bg-linear-to-r from-[#D92525] via-[#F2C94C] to-[#27AE60]"></div>
                             <div className="bg-white shadow-2xl rounded-2xl">
@@ -70,7 +70,9 @@ export const Main = () => {
                                 </div>
                             </div>
                         </div>
+
                               <div className="p-0">
+<div className="absolute top-0 left-0 w-full h-2 bg-linear-to-r from-[#D92525] via-[#F2C94C] to-[#27AE60]"></div>
                                 <div className="grid md:grid-cols-2">
                                     <div className="h-64 md:h-auto my-6 relative">
                                         <img
