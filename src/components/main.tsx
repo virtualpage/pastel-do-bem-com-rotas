@@ -9,10 +9,14 @@ export const Main = () => {
                     <h2 className="text-5xl md:text-6xl text-[#D92525] mb-6 font-hand">
                         Uma Doçura que Salva Vidas
                     </h2>
-                    <div className="space-y-6 text-xl md:text-2xl text-gray-700 leading-relaxed font-sans font-light">
+                    <div className="space-y-6 text-xl md:text-xl text-gray-700 leading-relaxed font-sans font-light">
                         <p>
-                            O <span className="font-bold text-[#D92525]">Pastel do Bem</span> é mais do que um doce delicioso. É um movimento de solidariedade.
-                            Cada contribuição ajuda diretamente na luta contra o câncer e o abuso infantil, apoiando o Instituto Alpha do Bem e parceiros.
+                            O <span className="font-bold text-[#D92525]">Pastel do Bem</span> é um movimento de solidariedade que faz diferença na vida de muitas crianças.
+                            Nos dias 5, 6 e 7 de Dezembro, cada Pastel de Belém comprado na Quinta do Marquês se transforma em apoio direto às crianças atendidas pelo Instituto Alpha do Bem e seus parceiros.
+
+                            Participe dessa corrente do bem.
+                            Sua contribuição gera impacto real e leva esperança a quem mais precisa.
+
                         </p>
                         <p>
                             Junte-se a nós nessa causa. Sua ajuda transforma lágrimas em sorrisos e dá esperança para quem mais precisa.
@@ -76,6 +80,8 @@ export const Main = () => {
                                         >
                                             <IoBagHandle className="mr-2 h-6 w-6" /> Comprar Agora
                                         </a>
+                                        <p className="text-center text-sm mt-6">Retirada de 11/ 12 a 30/12, das 08:00 às 20:00 mediante comprovante de pagamento.
+                                            Av. Sagitário, 555 - Alphaville Conde I, Barueri - SP, Barueri, São Paulo, Brazil, 06473-073</p>
                                     </div>
                                 </div>
                             </div>
