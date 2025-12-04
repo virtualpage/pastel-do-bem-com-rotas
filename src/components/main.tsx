@@ -46,7 +46,31 @@ export const Main = () => {
                     <div className="max-w-4xl mx-auto mt-20">
                         <div className="overflow-hidden border-none shadow-xl bg-white relative rounded-xl">
                             <div className="absolute top-0 left-0 w-full h-2 bg-linear-to-r from-[#D92525] via-[#F2C94C] to-[#27AE60]"></div>
-                            <div className="p-0">
+                           <div className="p-0">
+                            <div className="mt-6 left-0 w-full rounded-t-2xl h-2 bg-linear-to-r from-[#D92525] via-[#F2C94C] to-[#27AE60]"></div>
+                            <div className="bg-white shadow-2xl rounded-2xl">
+                                <div className="p-8 md:p-12 flex flex-col justify-center text-center">
+                                    <h3 className="text-3xl md:text-4xl text-[#D92525] mb-4 font-hand">
+                                        Você também pode comprar o Pastel Virtual
+                                    </h3>
+                                    <p className="text-gray-600 mb-6 font-sans text-lg">
+                                        Transforme o futuro com o Pastel Virtual, uma <span className="font-bold">doação simbólica de R$ 12,00 </span> que faz toda a diferença.
+                                    </p>
+                                    <div className="flex justify-center items-center gap-4 mb-8">
+                                        <span className="text-3xl font-bold text-gray-800 font-sans">R$ 12,00</span>
+                                    </div>
+                                    <a
+                                        target="_blank"
+                                        href="https://pagamento.pagbank.com.br/pagamento?code=92bdfef2-4995-4a77-b505-d99d054b3ff7&t=09f9e546-8d89-4784-a75e-fd3f89574dc8"
+                                        className="h-12 flex justify-center items-center text-[#D92525] py-6 px-8 text-2xl font-hand font-bold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 transform hover:-translate-y-1 hover:text-white hover:bg-[#D40924] shadow-hand border-[#d8d8d8] rounded-2xl"
+                                    >
+                                        Comprar
+                                    </a>
+                                    <span className="tex- mt-6">*A compra do pastel virtual é um valor simbólico que não representa a compra do pastel</span>
+                                </div>
+                            </div>
+                        </div>
+                              <div className="p-0">
                                 <div className="grid md:grid-cols-2">
                                     <div className="h-64 md:h-auto my-6 relative">
                                         <img
@@ -83,30 +107,7 @@ export const Main = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="p-0">
-                            <div className="mt-6 left-0 w-full rounded-t-2xl h-2 bg-linear-to-r from-[#D92525] via-[#F2C94C] to-[#27AE60]"></div>
-                            <div className="bg-white shadow-2xl rounded-2xl">
-                                <div className="p-8 md:p-12 flex flex-col justify-center text-center">
-                                    <h3 className="text-3xl md:text-4xl text-[#D92525] mb-4 font-hand">
-                                        Você também pode comprar o Pastel Virtual
-                                    </h3>
-                                    <p className="text-gray-600 mb-6 font-sans text-lg">
-                                        Transforme o futuro com o Pastel Virtual, uma <span className="font-bold">doação simbólica de R$ 12,00 </span> que faz toda a diferença.
-                                    </p>
-                                    <div className="flex justify-center items-center gap-4 mb-8">
-                                        <span className="text-3xl font-bold text-gray-800 font-sans">R$ 12,00</span>
-                                    </div>
-                                    <a
-                                        target="_blank"
-                                        href="https://pagamento.pagbank.com.br/pagamento?code=92bdfef2-4995-4a77-b505-d99d054b3ff7&t=09f9e546-8d89-4784-a75e-fd3f89574dc8"
-                                        className="h-12 flex justify-center items-center text-[#D92525] py-6 px-8 text-2xl font-hand font-bold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 transform hover:-translate-y-1 hover:text-white hover:bg-[#D40924] shadow-hand border-[#d8d8d8] rounded-2xl"
-                                    >
-                                        Comprar
-                                    </a>
-                                    <span className="tex- mt-6">*A compra do pastel virtual é um valor simbólico que não representa a compra do pastel</span>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </section>
